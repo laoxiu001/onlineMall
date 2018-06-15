@@ -1,1 +1,138 @@
+/* header头部样式 */
+.header{
+    margin: 0 auto;
+    border-bottom: 2px solid #d2364c;
+}
+.search{
+    padding: 25px 0;
+    height: 90px;
+}
+.search input{
+    height: 40px;
+    border:1px solid #f03726;
+}
+.search span button{
+    color: white;
+    width: 100px;
+    height: 40px;
+    background-color: #f03726;
+}
+.search span button:hover{
+    color: white;
+}
+.nav ul .active{
+    background-color: #d2364c;
+}
+.nav ul li a:hover{
+    color: white;
+    background-color: #d2364c;
+}
+.nav ul li a:focus{
+    color: white;
+    background-color: #d2364c;
+}
+.myWelfare{
+    margin-top: 5px;
+    width:150px;
+    height: 40px;
+}
+/* header头部样式 */
 
+
+/* footer底部样式 */
+.footer{
+    margin: 0 auto;
+}
+.hr1{
+    border-top: 2px solid #ff5400;
+}
+.hr2{
+    border-top: 2px solid #dddddd;
+}
+.url{
+    color: #8e8e8e;
+}
+/* footer底部样式 */
+
+
+/* index首页样式 */
+.index{
+    margin:0 auto;
+}
+/* 二级导航 */
+.nav_sec{
+    width: 700px;
+    height: 678px;
+    position: absolute;
+    left: 140px;
+    top: 0px;
+}
+.sort_list{
+    width: 140px;
+}
+.sort_list li{
+    background-color: black;
+}
+.sort_list li div{
+    display: none;
+}
+.sort_list li:hover div{
+    display: block;
+}
+.sort_list li a:hover{
+    color: black;
+    background-color: white;
+}
+.sort_list li a{
+    color: white;
+}
+.sort_list li a i{
+    color: #d83e54;
+}
+.sort_list li a span{
+    float: right;
+}
+.sort_list li a:hover span{
+color: black;
+}
+.sort_list li span{
+    color: white;
+}
+.sort_title{
+    font-weight: 600;
+    color: #df5568;
+}
+.sort_commodity{
+    cursor: pointer;
+    margin:4px 0 0 5px;
+    padding: 2px 10px;
+    border: 1px solid #888888;
+    color: #888888;
+}
+.sort_commodity:hover{
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+}
+.business_title{
+    margin-top: 30px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #88888888;
+}
+.business_content div{
+    padding-right: 8px;
+}
+.business_content div a{
+    color: #888888;
+}
+.business_content div a:hover{
+    text-decoration: none;
+    color: black;
+}
+.business_content div{
+    color: #888888;
+}
+.business_content div span{
+    float: left;
+}
+/* index首页样式 */

@@ -1,0 +1,10 @@
+fontawesome字体使用：
+1、引入css文件夹下font-awesome.min
+2、css同级目录下fonts目录中需要存在fontawesome-webfont
+
+
+bootstrap自带li标签间隙：
+修改下面的类
+.nav-stacked>li+li{
+margin-top:0px;
+}
