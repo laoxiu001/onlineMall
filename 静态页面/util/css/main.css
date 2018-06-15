@@ -38,6 +38,37 @@
 }
 /* header头部样式 */
 
+/* 侧边栏购物车样式 */
+html,body{
+    /* 首先给父元素满高度 */
+    height: 100%;
+    width: 100%;
+}
+.sideBar{
+    top:0;
+    position:fixed;
+    padding: 100px 0px 15px 10px;
+    width: 40px;
+    min-height:100%;
+    background-color: black;
+}
+.sideBar p{
+    cursor: pointer;
+    color: white;
+}
+.sideBar p a{
+    display: block;
+    color: white;
+    border-radius:50%;
+    background-color: #ed145b;
+    padding-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+.sideBar p i:hover{
+    color: #ed145b;
+}
+/* 侧边栏购物车样式 */
 
 /* footer底部样式 */
 .footer{
@@ -61,13 +92,17 @@
 }
 /* 二级导航 */
 .nav_sec{
+    /* div置于顶层 */
+    z-index:99999;
     width: 700px;
-    height: 678px;
+    height: 552px;
     position: absolute;
     left: 140px;
     top: 0px;
+    background-color: white;
 }
 .sort_list{
+    margin-left: 15px;
     width: 140px;
 }
 .sort_list li{
@@ -134,5 +169,61 @@ color: black;
 }
 .business_content div span{
     float: left;
+}
+.headline{
+    height: 305px;
+    background-color: #f9f9f9;
+}
+.headline h5{
+    color: red;
+}
+.headline p {
+    white-space:nowrap;
+    word-break:break-all;
+    text-overflow:ellipsis;overflow:hidden;
+}
+.explosion{
+    padding:0;
+    margin-top: 10px;
+    border: 3px solid #ffd800;
+}
+.explosion_title{
+    width: 100%;
+    background-color: #ffd800;
+}
+.count{
+    font-size: 20px;
+    margin-top: 35px;
+    margin-right: 20px;
+}
+.count a{
+    margin-left: 10px;
+    padding: 5px 0 0 8px;
+    display: block;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    background-color: #8b5826;
+}
+.count span{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.explosion_commodity{
+    border-right: 3px solid #ffd800;
+}
+.explosion_commodity img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.explosion_commodity p{
+    margin-top: 10px;
+}
+.explosion_commodity h4{
+    color: red;
+}
+.explosion_commodity span{
+    font-size: 15px;
 }
 /* index首页样式 */

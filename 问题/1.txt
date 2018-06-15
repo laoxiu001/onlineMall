@@ -8,3 +8,11 @@ bootstrap自带li标签间隙：
 .nav-stacked>li+li{
 margin-top:0px;
 }
+
+
+p标签超出内容自动显示省略号
+p {
+    white-space:nowrap;
+    word-break:break-all;
+    text-overflow:ellipsis;overflow:hidden;
+}
