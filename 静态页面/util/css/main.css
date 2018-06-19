@@ -261,3 +261,15 @@ color: black;
 }
 .classification_pic_sm p{}
 /* index首页样式 */
+
+/* login登陆页面样式 */
+.login{
+    height: 500px;
+    background:url(../../img/big1.jpg) no-repeat 0px center
+}
+.login_box{
+    margin-top: 20px;
+    height: 450px;
+    background-color: #f8f8f8;
+}
+/* login登陆页面样式 */
