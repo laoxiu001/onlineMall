@@ -46,6 +46,7 @@ html,body{
 }
 .sideBar{
     top:0;
+    right: 0;
     position:fixed;
     padding: 100px 0px 15px 10px;
     width: 40px;
@@ -226,4 +227,37 @@ color: black;
 .explosion_commodity span{
     font-size: 15px;
 }
+/* 商品分类(甜品、坚果) */
+.classification{
+    margin-top: 10px;
+}
+.classification_top{
+    height: 45px;
+}
+.classification_remark{
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 25px;
+    line-height: 25px;
+    color: #977a6f;
+    border-radius: 10px;
+    background-color: #fff7d1;
+}
+.classification_remark:hover{
+    color: #977a6f;
+}
+.classification_title{
+    margin-top: 10px;
+}
+.classification_content_list ul{
+    margin-top: 20px;
+    margin-left: -70px;
+    list-style: none;
+}
+.classification_content_list ul li{
+    margin-left: 50px;
+    display: inline;
+}
+.classification_pic_sm p{}
 /* index首页样式 */
