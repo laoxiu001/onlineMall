@@ -2,9 +2,148 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>雷格商城系统-注册</title>
+    <!-- Bootstrap基础CSS样式 -->
+    <link rel="stylesheet" href="../util/css/bootstrap.min.css">
+    <!-- 阿里巴巴字体 -->
+    <link rel="stylesheet" href="../util/font/iconfont.css">
+    <!-- 公共类CSS样式 -->
+    <link rel="stylesheet" href="../util/css/public.css">
+    <!-- 单页CSS样式 -->
+    <link rel="stylesheet" href="../util/css/main.css">
 </head>
 <body>
+<!-- 头部Header -->
+<div class="container-fluid">
+    <img src="../img/logobig.png" alt="a">
+</div>
+<!-- 头部Header -->
 
+<!-- 主体内容 -->
+<div class="login">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 col-xs-1"></div>
+            <div class="col-md-4 col-sm-5 col-xs-10 login_box">
+                <!-- 头部标签页按钮 -->
+                <div style="margin-top: 20px">
+                    <ul id="myTab" class="nav nav-tabs">
+                        <li class="active">
+                            <a href="#email_box" data-toggle="tab">
+                                邮箱注册
+                            </a>
+                        </li>
+                        <li><a href="#phone_box" data-toggle="tab">手机号注册</a></li>
+                    </ul>
+                </div>
+                <!-- 注册标签页 -->
+                <div id="myTabContent" class="tab-content">
+                    <!-- 邮箱注册表单 -->
+                    <div class="tab-pane fade in active" id="email_box">
+                        <form style="margin-top: 25px">
+                            <table>
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="iconfont icon-youxiang"></i></span>
+                                    <input type="text" class="form-control" placeholder="请输入邮箱账号" style="height: 40px;">
+                                </div>
+                                <div class="input-group" style="margin-top: 10px">
+                                    <span class="input-group-addon"><i class="iconfont icon-suo"></i></span>
+                                    <input type="text" class="form-control" placeholder="设置密码" style="height: 40px;">
+                                </div>
+                                <div class="input-group" style="margin-top: 10px">
+                                    <span class="input-group-addon"><i class="iconfont icon-suo"></i></span>
+                                    <input type="text" class="form-control" placeholder="确认密码" style="height: 40px;">
+                                </div>
+                                <div class="form-group" style="margin-top: 15px">
+                                    <div class="checkbox fl">
+                                        <label><input type="checkbox">点击表示您同意商城《服务协议》</label>
+                                    </div>
+                                </div>
+                                <div class="form-group" style="margin-top: 70px">
+                                    <button class="btn btn-primary form-control">注册</button>
+                                </div>
+                            </table>
+                        </form>
+                    </div>
+                    <!-- 手机号注册表单 -->
+                    <div class="tab-pane fade" id="phone_box">
+                        <form style="margin-top: 25px">
+                            <table>
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="iconfont icon-shouji"></i></span>
+                                    <input type="text" class="form-control" placeholder="请输入手机号" style="height: 40px;">
+                                </div>
+                                <div class="form-inline" style="margin-top: 10px">
+                                    <span class="input-group-addon form-control"><i class="iconfont icon-youxiang"></i></span>
+                                    <input type="text" class="form-control" placeholder="请输入验证码" style="height: 40px;">
+                                    <button class="btn btn-default">获取</button>
+                                </div>
+                                <div class="input-group" style="margin-top: 10px">
+                                    <span class="input-group-addon"><i class="iconfont icon-suo"></i></span>
+                                    <input type="text" class="form-control" placeholder="设置密码" style="height: 40px;">
+                                </div>
+                                <div class="input-group" style="margin-top: 10px">
+                                    <span class="input-group-addon"><i class="iconfont icon-suo"></i></span>
+                                    <input type="text" class="form-control" placeholder="确认密码" style="height: 40px;">
+                                </div>
+                                <div class="form-group" style="margin-top: 15px">
+                                    <div class="checkbox fl">
+                                        <label><input type="checkbox">点击表示您同意商城《服务协议》</label>
+                                    </div>
+                                </div>
+                                <div class="form-group" style="margin-top: 70px">
+                                    <button class="btn btn-primary form-control">注册</button>
+                                </div>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 主体内容 -->
+
+<!-- 底部Footer -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <!-- hr分隔栏1 -->
+            <div class="col-sm-12"><hr class="hr1"/></div>
+            <!-- hr分隔栏1 -->
+            <!-- 底部外链 -->
+
+            <div class="col-sm-12">
+                <a href="#" class="clra url" style="color: #8e8e8e;">恒望科技</a><span class="url">&nbsp;|&nbsp;</span>
+                <a href="#" class="clra url" style="color: #8e8e8e;">商城首页</a><span class="url">&nbsp;|&nbsp;</span>
+                <a href="#" class="clra url" style="color: #8e8e8e;">支付宝</a><span class="url">&nbsp;|&nbsp;</span>
+                <a href="#" class="clra url" style="color: #8e8e8e;">物流</a><span class="url">&nbsp;|&nbsp;</span>
+            </div>
+            <!-- 底部外链 -->
+
+            <!-- hr分隔栏2 -->
+            <div class="col-sm-12"><hr class="hr2"/></div>
+            <!-- hr分隔栏2 -->
+
+            <!-- 底部合作伙伴 -->
+            <div class="col-sm-12">
+                <a href="#" class="clra">关于恒望</a>
+                <a href="#" class="clra">合作伙伴</a>
+                <a href="#" class="clra">联系我们</a>
+                <a href="#" class="clra">网站地图</a>
+            </div>
+            <!-- 底部合作伙伴 -->
+        </div>
+    </div>
+</div>
+<!-- 底部Footer -->
+
+
+<!-- JQuery -->
+<script src="../util/js/jquery-3.3.1.min.js"></script>
+<!-- Bootstrap基础JS样式 -->
+<script src="../util/js/bootstrap.min.js"></script>
+<!-- 主JS函数 -->
+<script src="../util/js/main.js"></script>
 </body>
 </html>
