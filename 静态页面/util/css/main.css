@@ -288,3 +288,18 @@ color: black;
     color: #25a3d2;
 }
 /* login登陆页面样式 */
+
+
+
+/* detail商品详情页面样式 */
+.list_location{
+    margin-top: 20px;
+}
+.detail_img_small{
+    border: 2px solid transparent;
+}
+.detail_img_small:hover{
+    cursor: pointer;
+    border: 2px solid red;
+}
+/* detail商品详情页面样式 */
