@@ -267,9 +267,24 @@ color: black;
     height: 500px;
     background:url(../../img/big1.jpg) no-repeat 0px center
 }
+.login_title{
+    margin:0 auto;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+}
 .login_box{
     margin-top: 20px;
     height: 450px;
     background-color: #f8f8f8;
+}
+.login_icon i{
+    cursor: pointer;
+    color: #0e90d2;
+    font-size: 15px;
+}
+.login_icon i:hover{
+    cursor: pointer;
+    color: #25a3d2;
 }
 /* login登陆页面样式 */
