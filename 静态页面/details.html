@@ -99,7 +99,7 @@
             <div class="col-sm-12" style="margin-top: 20px">
                 <!-- 中等图片预览 -->
                 <div class="col-sm-5">
-                    <img src="img/01_mid.jpg">
+                    <img src="img/01_mid.jpg" style="width: 100%">
                     <img src="img/01_small.jpg" class="detail_img_small">
                     <img src="img/02_small.jpg" class="detail_img_small">
                     <img src="img/03_small.jpg" class="detail_img_small">
@@ -107,7 +107,90 @@
                 <!-- 商品购买选项 -->
                 <div class="col-sm-7">
                     <p style="font-weight: 800">良品铺子 手剥松子218g 坚果炒货 巴西松子</p>
-                    <div></div>
+                    <!-- 店铺优惠、折扣 -->
+                    <div class="discount">
+                        <div class="discount_box">
+                            <a class="clra fl discount_titl">店铺优惠</a>
+                            <p class="fl">购物满2件打8折，满3件7折</p>
+                            <a href="#" class="clra fr" style="color: #e4393c;">点击领券▼</a>
+                            <div class="cb"></div>
+                        </div>
+                        <div class="discount_box" style="height: 30px;line-height: 30px">
+                            <a class="clra fl discount_titl">促销价</a>
+                            <p class="fl">¥</p><a class="clra price">56.90</a>
+                            <div class="cb"></div>
+                        </div>
+                        <div class="discount_box" style="margin-top: 10px">
+                            <a class="clra fl discount_titl">原价</a>
+                            <a class="clra fl"><s>¥98.00</s></a>
+                            <div class="cb"></div>
+                        </div>
+                    </div>
+                    <!-- 配送地址 -->
+                    <div class="location">
+                        <a class="clra fl discount_titl" style="line-height: 34px;">配送至</a>
+                        <form class="form-inline">
+                            <select class="form-control">
+                                <option>浙江省</option>
+                                <option>四川省</option>
+                                <option>山西省</option>
+                                <option>辽宁省</option>
+                                <option>江苏省</option>
+                            </select>
+                            <select class="form-control">
+                                <option>温州市</option>
+                                <option>湖州市</option>
+                                <option>杭州市</option>
+                                <option>义乌市</option>
+                            </select>
+                            <select class="form-control">
+                                <option>瑞安区</option>
+                                <option>永川区</option>
+                                <option>宏递区</option>
+                                <option>开发区</option>
+                            </select>
+                            <a class="clra fr" style="line-height: 34px;margin-right: 60px">快递10元</a>
+                        </form>
+                    </div>
+                    <!-- 销量 -->
+                    <div class="sale">
+                        <div class="sale_box fl col-sm-4" style="border-right: 1px solid #c9c9c9;"><a class="clra">月销量 <span>1050</span></a></div>
+                        <div class="sale_box fl col-sm-4" style="border-right: 1px solid #c9c9c9;"><a class="clra">累计销量 <span>6015</span></a></div>
+                        <div class="sale_box fl col-sm-4"><a class="clra">累计评价 <span>640</span></a></div>
+                        <div class="cb"></div>
+                    </div>
+                    <!-- 商品参数（口味、包装） -->
+                    <div class="parameter">
+                        <!-- 口味 -->
+                        <a class="clra fl discount_titl">口味</a>
+                        <a class="clra fl parameter_choose">原味</a>
+                        <a class="clra fl parameter_choose">奶油</a>
+                        <a class="clra fl parameter_choose">炭烧</a>
+                        <a class="clra fl parameter_choose">咸香</a>
+                        <div class="cb"></div>
+                    </div>
+                    <div class="parameter">
+                        <!-- 包装 -->
+                        <a class="clra fl discount_titl">包装</a>
+                        <a class="clra fl parameter_choose" style="width: 90px">手袋单人份</a>
+                        <a class="clra fl parameter_choose" style="width: 90px">礼盒双人份</a>
+                        <a class="clra fl parameter_choose" style="width: 90px">全家福礼包</a>
+                        <div class="cb"></div>
+                    </div>
+                    <!-- 数量 -->
+                    <div class="quantity">
+                        <a class="clra fl discount_titl" style="line-height: 34px">数量</a>
+                        <form class="form-inline">
+                            <button class="form-control">-</button>
+                            <input type="text" class="form-control" value="1" style="width: 40px">
+                            <button class="form-control">+</button>
+                        </form>
+                    </div>
+                    <!-- 购买按钮 -->
+                    <div class="detail_btn_buy">
+                        <button class="btn btn-danger disabled">立即购买</button>
+                        <button class="btn btn-danger">加入购物车</button>
+                    </div>
                 </div>
             </div>
         </div>
