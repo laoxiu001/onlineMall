@@ -364,4 +364,78 @@ color: black;
 .detail_btn_buy{
     margin-top: 20px;
 }
+/* 优惠套装 */
+.set{
+    margin-top: 20px;
+}
+.set h4{
+    font-weight: 800;
+    color: #e8393c;
+}
+.set_commodity{
+    width: 180px;
+}
+.set_commodity img{
+    width: 160px;
+}
+.set_commodity p{
+    text-align: center;
+}
+.set_commodity p a{
+    font-weight: 700;
+    color: #e8393c;
+}
+.set_commodity p s{
+    color: #999999;
+}
+.set_price{
+    width: 150px;
+    margin-left: 20px;
+    padding-top: 70px;
+    text-align: center;
+}
+.see_title{
+    padding: 5px 0px;
+    text-align: center;
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 30px;
+}
+.see_commodity{
+    margin-top: 20px;
+}
+.see_commodity img{
+    width: 100%;
+}
+.see_commodity p{
+    font-weight: 600;
+}
+.see_commodity p a{
+    text-align: center;
+    display: block;
+    font-weight: 800;
+    color: #e4393c;
+}
+.details_title{
+    background-color: #f7f7f7;
+    height: 42px;
+}
+.details_title ul li{
+    width: 200px;
+    text-align: center;
+}
+#details_detail{
+    padding: 20px 10px;
+}
+#details_detail p{
+    width: 80px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ff7700;
+}
+.details_parameter div{
+    margin-top: 10px;
+}
+.details_parameter a{
+    font-weight: 600;
+}
 /* detail商品详情页面样式 */
