@@ -504,4 +504,27 @@ color: black;
     margin-top: 20px;
     padding: 10px 5px;
 }
+.search_box{
+    cursor: pointer;
+    padding-top: 10px;
+    margin-top: 10px;
+    border: 1px solid gainsboro;
+}
+.search_box:hover{
+    box-shadow: 0px 5px 8px #888888;
+}
+.tab{
+    margin-top: 10px;
+    border: 1px solid gainsboro;
+    padding: 15px 17px;
+}
+.tab span{
+    padding: 3px 5px;
+    margin-right: 10px;
+}
+.tab span:hover{
+    cursor: pointer;
+    color: red;
+    border: 1px solid darkgrey;
+}
 /* detail商品详情页面样式 */
