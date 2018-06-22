@@ -527,4 +527,15 @@ color: black;
     color: red;
     border: 1px solid darkgrey;
 }
+.conform_location{
+    margin-top: 20px;
+}
+.location_box{
+    border: 2px dashed #d1eafa;
+    margin-top: 20px;
+    padding: 10px 5px;
+}
+.location_box p{
+    font-weight: 700;
+}
 /* detail商品详情页面样式 */
