@@ -438,4 +438,70 @@ color: black;
 .details_parameter a{
     font-weight: 600;
 }
+.percent{
+    margin-top: 20px;
+}
+.percent_number a{
+    margin:0 auto;
+    font-size: 35px;
+    color: #e4393c;
+}
+.percent_number span{
+    font-size: 15px;
+}
+.percent_number p{
+    margin-left: 12px;
+}
+.percent_tab{
+    margin-top: 10px;
+    padding:3px 5px;
+    margin-right: 10px;
+    display: block;
+    font-size: 12px;
+    color: white;
+    background-color: #f47602;
+}
+.percent_tab:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    background-color: #f49501;
+}
+.all{
+    height: 30px;
+    background-color: #fafafa;
+    margin-top: 20px
+}
+.all a{
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+.evaluate{
+    margin-top: 20px;
+}
+.avator{
+    border-radius: 50%;
+}
+.evaluate_box{
+    margin-left: 10px;
+    border: 1px solid #dedede;
+    padding-bottom: 15px;
+}
+.evaluate_box_name{
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    display: block;
+    background-color: #f8f8f8;
+    font-weight: 700;
+    color: #999999;
+}
+.evaluate_box_name span{
+    color: #999999;
+}
+.like_box{
+    margin-top: 20px;
+    padding: 10px 5px;
+}
 /* detail商品详情页面样式 */
