@@ -538,4 +538,25 @@ color: black;
 .location_box p{
     font-weight: 700;
 }
+.logistics{
+    margin-top: 20px;
+}
+.logistics_box:hover{
+    cursor: pointer;
+    border: 1px dashed #d5dadf;
+}
+.logistics_box img{
+    height: 50px;
+}
+.payment_type{
+    margin-top: 20px;
+}
+.confirm{
+    margin-top: 20px;
+}
+.confirm_location{
+    float: right;
+    width: 400px;
+    border:2px solid red;
+}
 /* detail商品详情页面样式 */
